@@ -6,7 +6,7 @@
 ###################################################
 FROM node:22 AS base
 WORKDIR /usr/local/app
-WORKDIR /usr/local/app
+WORKDIR /usr/local/app 2 for test
 ################## CLIENT STAGES ##################
 
 ###################################################
