@@ -4,6 +4,7 @@
 # This base stage ensures all other stages are using the same base image
 # and provides common configuration for all stages, such as the working dir.
 ###################################################
+test reflect: GITHUB
 FROM node:22 AS base
 WORKDIR /usr/local/app
 WORKDIR /usr/local/app 2 for test
