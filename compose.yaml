@@ -1,4 +1,6 @@
 ###################################################
+
+#adding this comment for the test for commit
 # This Compose file provides the development environment for the todo app.
 # 
 # Seeing the final version of the application bundles the frontend with the
@@ -44,7 +46,7 @@ services:
       - 80:80
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    adding files for the test for commit
+    #adding files for the test for commit
 
   ###################################################
   # Service: backend
