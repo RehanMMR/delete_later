@@ -1,5 +1,5 @@
 # Getting Started Todo App
-THIS IS THE 2ND VERSION OF THE FILE
+
 This project provides a sample todo list application. It demonstrates all of
 the current Docker best practices, ranging from the Compose file, to the
 Dockerfile, to CI (using GitHub Actions), and running tests. It's intended to 
@@ -53,5 +53,4 @@ When you're done, simply remove the containers by running the following command:
 
 ```
 docker compose down
-
 ```
